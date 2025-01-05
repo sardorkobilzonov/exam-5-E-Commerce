@@ -1283,6 +1283,213 @@ footer .footer .app .app__title {
     font-weight: 500;
     line-height: 28px;
   }
+  .detail {
+    padding: 50px;
+    padding-bottom: 94px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .havic {
+    padding-top: 80px;
+    padding-left: 0;
+    padding-bottom: 60px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+  }
+  .havic span {
+    color: #000000;
+    opacity: 50%;
+  }
+  .productAllInform {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .productAllInform h1 {
+    font-size: 20px;
+  }
+  .all2 {
+    padding-top: 60px;
+    padding-bottom: 140px;
+    display: flex;
+    align-items: center;
+    gap: 80px;
+  }
+  .all2 .imgg img {
+    max-width: 805px;
+    width: 100%;
+  }
+  .all2 .part .a {
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 24px;
+  }
+  .all2 .part .a div {
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0.04em;
+    text-align: center;
+  }
+  .all2 .part .a p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+  }
+  .all2 .part .form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 40px;
+    max-width: 300px;
+  }
+  .all2 .part input {
+    width: 100%;
+    max-width: 500px;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+  }
+  .all2 .part button {
+    padding: 16px 48px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    color: #fff;
+    background-color: #db4444;
+    border-radius: 5px;
+    border: 1px solid #db4444;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  .all2 .part button:hover {
+    background-color: white;
+    color: #db4444;
+  }
+  .account__page {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .account__page .my__account {
+    padding-top: 80px;
+    display: flex;
+    gap: 100px;
+    flex-wrap: wrap;
+  }
+  .account__page .my__account .account__options {
+    padding-left: 50px;
+    padding-top: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+  .account__page .my__account .account__options .account__texts {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #6e6b6b;
+    transition: 0.3s;
+  }
+  .account__page .my__account .account__options .account__texts:hover {
+    color: #db4444;
+  }
+  .account__page .my__account .account__inputs {
+    padding-top: 24px;
+    padding: 40px 40px;
+    width: 100%;
+    max-width: 900px;
+    height: 650px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    background-color: #ffffff;
+  }
+  .account__page .my__account .account__inputs h3 {
+    color: #db4444;
+  }
+  .account__page .my__account .account__inputs .account__form {
+    padding-top: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+  }
+  .account__page .my__account .account__inputs .account__form .formInputs {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+  }
+  .account__page .my__account .account__inputs .account__form .formInputs #first {
+    width: 100%;
+    max-width: 300px;
+    padding: 13px 16px;
+    background-color: #f5f5f5;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+  }
+  .account__page .my__account .account__inputs .account__form .formInputs .form__title {
+    padding-bottom: 8px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+  }
+  .account__page .my__account .account__inputs .account__form .form__paswords {
+    padding-top: 24px;
+    padding-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .account__page .my__account .account__inputs .account__form .form__paswords input {
+    width: 100%;
+    padding: 13px 16px;
+    background-color: #f5f5f5;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+  }
+  .account__page .my__account .account__inputs .account__form .password__btn {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+  }
+  .account__page .my__account .account__inputs .account__form .password__btn .pass__btn1 {
+    padding: 16px;
+    border: none;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  .account__page .my__account .account__inputs .account__form .password__btn .pass__btn1:hover {
+    color: white;
+    background-color: red;
+  }
+  .account__page .my__account .account__inputs .account__form .password__btn .pass__btn2 {
+    padding: 16px 48px;
+    border: none;
+    border-radius: 3px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  .account__page .my__account .account__inputs .account__form .password__btn .pass__btn2:hover {
+    background-color: #db4444;
+    color: white;
+  }
 }
 @media (max-width: 768px) {
   .all2 {
@@ -1582,6 +1789,213 @@ footer .footer .app .app__title {
     font-weight: 500;
     line-height: 28px;
   }
+  .detail {
+    padding: 50px;
+    padding-bottom: 94px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .havic {
+    padding-top: 80px;
+    padding-left: 150px;
+    padding-bottom: 60px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+  }
+  .havic span {
+    color: #000000;
+    opacity: 50%;
+  }
+  .productAllInform {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .productAllInform h1 {
+    font-size: 28px;
+  }
+  .all2 {
+    padding-top: 60px;
+    padding-bottom: 140px;
+    display: flex;
+    align-items: center;
+    gap: 80px;
+  }
+  .all2 .imgg img {
+    max-width: 805px;
+    width: 100%;
+  }
+  .all2 .part .a {
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 24px;
+  }
+  .all2 .part .a div {
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0.04em;
+    text-align: center;
+  }
+  .all2 .part .a p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+  }
+  .all2 .part .form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 40px;
+    max-width: 300px;
+  }
+  .all2 .part input {
+    width: 100%;
+    max-width: 500px;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+  }
+  .all2 .part button {
+    padding: 16px 48px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    color: #fff;
+    background-color: #db4444;
+    border-radius: 5px;
+    border: 1px solid #db4444;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  .all2 .part button:hover {
+    background-color: white;
+    color: #db4444;
+  }
+  .account__page {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .account__page .my__account {
+    padding-top: 80px;
+    display: flex;
+    gap: 100px;
+    flex-wrap: wrap;
+  }
+  .account__page .my__account .account__options {
+    padding-left: 50px;
+    padding-top: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+  .account__page .my__account .account__options .account__texts {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #6e6b6b;
+    transition: 0.3s;
+  }
+  .account__page .my__account .account__options .account__texts:hover {
+    color: #db4444;
+  }
+  .account__page .my__account .account__inputs {
+    padding-top: 24px;
+    padding: 40px 40px;
+    width: 100%;
+    max-width: 900px;
+    height: 650px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    background-color: #ffffff;
+  }
+  .account__page .my__account .account__inputs h3 {
+    color: #db4444;
+  }
+  .account__page .my__account .account__inputs .account__form {
+    padding-top: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+  }
+  .account__page .my__account .account__inputs .account__form .formInputs {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+  }
+  .account__page .my__account .account__inputs .account__form .formInputs #first {
+    width: 100%;
+    max-width: 300px;
+    padding: 13px 16px;
+    background-color: #f5f5f5;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+  }
+  .account__page .my__account .account__inputs .account__form .formInputs .form__title {
+    padding-bottom: 8px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+  }
+  .account__page .my__account .account__inputs .account__form .form__paswords {
+    padding-top: 24px;
+    padding-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .account__page .my__account .account__inputs .account__form .form__paswords input {
+    width: 100%;
+    padding: 13px 16px;
+    background-color: #f5f5f5;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+  }
+  .account__page .my__account .account__inputs .account__form .password__btn {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+  }
+  .account__page .my__account .account__inputs .account__form .password__btn .pass__btn1 {
+    padding: 16px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  .account__page .my__account .account__inputs .account__form .password__btn .pass__btn1:hover {
+    color: white;
+    background-color: red;
+  }
+  .account__page .my__account .account__inputs .account__form .password__btn .pass__btn2 {
+    padding: 16px 48px;
+    border: none;
+    border-radius: 3px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  .account__page .my__account .account__inputs .account__form .password__btn .pass__btn2:hover {
+    background-color: #db4444;
+    color: white;
+  }
 }
 @media (max-width: 976px) {
   .all2 {
@@ -1877,5 +2291,211 @@ footer .footer .app .app__title {
     font-size: 20px;
     font-weight: 500;
     line-height: 28px;
+  }
+  .detail {
+    padding: 50px;
+    padding-bottom: 94px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 50px;
+    display: flex;
+    justify-content: center;
+  }
+  .havic {
+    padding-top: 80px;
+    padding-left: 50px;
+    padding-bottom: 60px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+  }
+  .havic span {
+    color: #000000;
+    opacity: 50%;
+  }
+  .productAllInform {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .productAllInform h1 {
+    font-size: 30px;
+  }
+  .all2 {
+    padding-top: 60px;
+    padding-bottom: 140px;
+    display: flex;
+    align-items: center;
+    gap: 80px;
+  }
+  .all2 .imgg img {
+    max-width: 805px;
+    width: 100%;
+  }
+  .all2 .part .a {
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 24px;
+  }
+  .all2 .part .a div {
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: 0.04em;
+    text-align: left;
+  }
+  .all2 .part .a p {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+  }
+  .all2 .part .form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 40px;
+    max-width: 300px;
+  }
+  .all2 .part input {
+    width: 100%;
+    max-width: 500px;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+  }
+  .all2 .part button {
+    padding: 16px 48px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    color: #fff;
+    background-color: #db4444;
+    border-radius: 5px;
+    border: 1px solid #db4444;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  .all2 .part button:hover {
+    background-color: white;
+    color: #db4444;
+  }
+  .account__page {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .account__page .my__account {
+    padding-top: 80px;
+    display: flex;
+    gap: 100px;
+    flex-wrap: wrap;
+  }
+  .account__page .my__account .account__options {
+    padding-left: 50px;
+    padding-top: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+  .account__page .my__account .account__options .account__texts {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #6e6b6b;
+    transition: 0.3s;
+  }
+  .account__page .my__account .account__options .account__texts:hover {
+    color: #db4444;
+  }
+  .account__page .my__account .account__inputs {
+    padding-top: 24px;
+    padding: 40px 40px;
+    width: 100%;
+    max-width: 900px;
+    height: 650px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    background-color: #ffffff;
+  }
+  .account__page .my__account .account__inputs h3 {
+    color: #db4444;
+  }
+  .account__page .my__account .account__inputs .account__form {
+    padding-top: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+  }
+  .account__page .my__account .account__inputs .account__form .formInputs {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+  }
+  .account__page .my__account .account__inputs .account__form .formInputs #first {
+    width: 100%;
+    max-width: 300px;
+    padding: 13px 16px;
+    background-color: #f5f5f5;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+  }
+  .account__page .my__account .account__inputs .account__form .formInputs .form__title {
+    padding-bottom: 8px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+  }
+  .account__page .my__account .account__inputs .account__form .form__paswords {
+    padding-top: 24px;
+    padding-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .account__page .my__account .account__inputs .account__form .form__paswords input {
+    width: 100%;
+    padding: 13px 16px;
+    background-color: #f5f5f5;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+  }
+  .account__page .my__account .account__inputs .account__form .password__btn {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+  }
+  .account__page .my__account .account__inputs .account__form .password__btn .pass__btn1 {
+    padding: 16px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  .account__page .my__account .account__inputs .account__form .password__btn .pass__btn1:hover {
+    color: white;
+    background-color: red;
+  }
+  .account__page .my__account .account__inputs .account__form .password__btn .pass__btn2 {
+    padding: 16px 48px;
+    border: none;
+    border-radius: 3px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  .account__page .my__account .account__inputs .account__form .password__btn .pass__btn2:hover {
+    background-color: #db4444;
+    color: white;
   }
 }/*# sourceMappingURL=style.css.map */
