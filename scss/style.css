@@ -135,6 +135,12 @@ nav .par5 .p {
   align-items: center;
   gap: 20px;
 }
+nav .menu {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  display: none;
+}
 
 .hero {
   display: flex;
@@ -435,7 +441,6 @@ nav .par5 .p {
 }
 .experience .experience1 {
   display: flex;
-  flex-wrap: wrap;
   gap: 20px;
   max-width: 1170px;
   width: 100%;
@@ -614,6 +619,11 @@ footer {
   background-color: #000000;
   padding: 135px 120px;
   color: #fff;
+  margin-top: 30px;
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 1rem;
 }
 footer .footer {
   display: flex;
@@ -1049,6 +1059,11 @@ footer .footer .app .app__title {
   color: white;
 }
 
+.part2 img {
+  max-width: 450px;
+  width: 100%;
+}
+
 @media (max-width: 458px) {
   .all2 {
     flex-wrap: wrap;
@@ -1068,9 +1083,13 @@ footer .footer .app .app__title {
   }
   .before {
     flex-wrap: wrap;
+    justify-content: start;
   }
   .before .par1 {
-    flex-wrap: wrap;
+    justify-content: start;
+  }
+  .before .par1 p {
+    font-size: 14px;
   }
   .nav-items {
     flex-direction: column;
@@ -1099,7 +1118,7 @@ footer .footer .app .app__title {
     z-index: 10;
   }
   .menu {
-    display: block;
+    display: block !important;
   }
   .open .nav-items {
     left: 0;
@@ -1135,6 +1154,134 @@ footer .footer .app .app__title {
   #app {
     display: flex;
     justify-content: center;
+  }
+  .wrapper {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .experience {
+    padding-left: 0;
+    padding-inline-end: 0;
+  }
+  .experience2 {
+    gap: 16px !important;
+    padding-left: 40px !important;
+  }
+  .experience2 .experience-button {
+    margin-top: 50px;
+  }
+  .experience1 {
+    flex-wrap: wrap;
+    height: 800px !important;
+  }
+  .experience .experience2 .experience5 {
+    font-size: 20px;
+    line-height: 40px;
+  }
+  .experience .experience2 .experience6 {
+    flex-wrap: wrap;
+  }
+  .ariva__images {
+    flex-wrap: wrap;
+  }
+  .ariva__images img {
+    width: 362px !important;
+  }
+  .ariva__images .speak__parfume {
+    margin-top: 20px;
+    margin-left: 96px;
+    flex-wrap: wrap;
+  }
+  .ariva__images .ps__girl__images {
+    flex-wrap: wrap;
+  }
+  .arrival {
+    padding-left: 12px;
+  }
+  .services {
+    flex-wrap: wrap;
+  }
+  footer {
+    padding-top: 40px;
+    background-color: #000000;
+    padding: 135px 120px;
+    color: #fff;
+    margin-top: 30px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+  }
+  footer .footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 70px;
+  }
+  footer .footer .inform {
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+  }
+  footer .footer .inform .exclusive__title {
+    font-size: 20px;
+    font-weight: 500;
+  }
+  footer .footer .inform .infotm__title2 {
+    font-size: 18px;
+    font-weight: 400;
+  }
+  footer .footer .inform .inform__text {
+    font-size: 14px;
+    font-weight: 400;
+  }
+  footer .footer .inform input {
+    width: 100%;
+    max-width: 217px;
+    padding: 12px 16px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    opacity: 40%;
+    background-color: #000000;
+    border: 1.5px solid #fff;
+    outline: none;
+    border-radius: 4px;
+    color: #fff;
+  }
+  footer .footer .inform .infotm__title {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 28px;
+  }
+  footer .footer .inform .infotm__title3 {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+  }
+  footer .footer .inform .inform__text2 {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+  }
+  footer .footer .inform .inform__tel {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+  }
+  footer .footer .app {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 24px;
+  }
+  footer .footer .app .app__title {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 28px;
   }
 }
 @media (max-width: 768px) {
@@ -1224,6 +1371,217 @@ footer .footer .app .app__title {
     display: flex;
     justify-content: center;
   }
+  .all2 {
+    flex-wrap: wrap;
+    gap: 60px;
+  }
+  .all2 .part {
+    padding-left: 20px;
+  }
+  .hero .part1 .par8 {
+    font-size: 32px;
+    line-height: 32px;
+    letter-spacing: 0.03em;
+    text-align: left;
+  }
+  .product-container li {
+    flex-wrap: wrap;
+  }
+  .before {
+    flex-wrap: wrap;
+  }
+  .before .par1 p {
+    font-size: 16px;
+  }
+  .nav-items {
+    flex-direction: column;
+    gap: 24px;
+    position: fixed;
+    top: 100px;
+    left: -100%;
+    width: 100%;
+    height: calc(100vh - 104px);
+    background: #fff;
+    padding: 60px 0;
+    transition: all 0.3s ease-in-out;
+    z-index: 10;
+  }
+  .par5 {
+    flex-direction: column;
+    gap: 24px;
+    position: fixed;
+    top: 80px;
+    left: -100%;
+    width: 100%;
+    height: calc(100vh - 104px);
+    background: #fff;
+    padding: 60px 0;
+    transition: all 0.3s ease-in-out;
+    z-index: 10;
+  }
+  .menu {
+    display: block !important;
+  }
+  .open .nav-items {
+    left: 0;
+  }
+  .open {
+    box-shadow: none;
+  }
+  .all {
+    flex-wrap: wrap;
+  }
+  .cards {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .par {
+    padding-left: 0;
+  }
+  #app {
+    padding-left: 0;
+  }
+  .Categories {
+    padding-left: 0;
+  }
+  .Categories .par9 {
+    justify-content: center;
+  }
+  .Categories .par11 {
+    text-align: center;
+  }
+  .par {
+    justify-content: center;
+  }
+  #app {
+    display: flex;
+    justify-content: center;
+  }
+  .wrapper {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .experience {
+    padding-left: 0;
+    padding-inline-end: 0;
+  }
+  .experience2 {
+    gap: 16px !important;
+    padding-left: 40px !important;
+  }
+  .experience2 .experience-button {
+    margin-top: 50px;
+  }
+  .experience .experience2 .experience5 {
+    font-size: 20px;
+    line-height: 40px;
+  }
+  .experience .experience2 .experience6 {
+    flex-wrap: wrap;
+  }
+  .ariva__images {
+    flex-wrap: wrap;
+  }
+  .ariva__images img {
+    width: 362px !important;
+  }
+  .ariva__images .speak__parfume {
+    margin-top: 20px;
+    margin-left: 96px;
+    flex-wrap: wrap;
+  }
+  .ariva__images .ps__girl__images {
+    flex-wrap: wrap;
+    margin-left: 177px;
+  }
+  .arrival {
+    padding-left: 12px;
+  }
+  .services {
+    flex-wrap: wrap;
+  }
+  footer {
+    padding-top: 40px;
+    background-color: #000000;
+    padding: 135px 120px;
+    color: #fff;
+    margin-top: 30px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+  }
+  footer .footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 70px;
+  }
+  footer .footer .inform {
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+  }
+  footer .footer .inform .exclusive__title {
+    font-size: 26px;
+    font-weight: 500;
+  }
+  footer .footer .inform .infotm__title2 {
+    font-size: 20px;
+    font-weight: 400;
+  }
+  footer .footer .inform .inform__text {
+    font-size: 18px;
+    font-weight: 400;
+  }
+  footer .footer .inform input {
+    width: 100%;
+    max-width: 217px;
+    padding: 12px 16px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    opacity: 40%;
+    background-color: #000000;
+    border: 1.5px solid #fff;
+    outline: none;
+    border-radius: 4px;
+    color: #fff;
+  }
+  footer .footer .inform .infotm__title {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 28px;
+  }
+  footer .footer .inform .infotm__title3 {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+  }
+  footer .footer .inform .inform__text2 {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+  }
+  footer .footer .inform .inform__tel {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+  }
+  footer .footer .app {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 24px;
+  }
+  footer .footer .app .app__title {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 28px;
+  }
 }
 @media (max-width: 976px) {
   .all2 {
@@ -1242,17 +1600,17 @@ footer .footer .app .app__title {
   .product-container li {
     flex-wrap: wrap;
   }
-  .par {
-    padding-left: 0;
-  }
-  #app {
-    padding-left: 0;
-  }
   .before {
     flex-wrap: wrap;
   }
   .before .par1 {
     flex-wrap: wrap;
+  }
+  .par {
+    padding-left: 0;
+  }
+  #app {
+    padding-left: 0;
   }
   .nav-items {
     flex-direction: column;
@@ -1312,11 +1670,212 @@ footer .footer .app .app__title {
     display: flex;
     justify-content: center;
   }
-}
-footer {
-  margin-top: 30px;
-  background-color: black;
-  color: white;
-  text-align: center;
-  padding: 1rem;
+  .all2 {
+    flex-wrap: wrap;
+    gap: 60px;
+  }
+  .all2 .part {
+    padding-left: 20px;
+  }
+  .hero .part1 .par8 {
+    font-size: 32px;
+    line-height: 32px;
+    letter-spacing: 0.03em;
+    text-align: left;
+  }
+  .product-container li {
+    flex-wrap: wrap;
+  }
+  .before {
+    flex-wrap: wrap;
+  }
+  .before .par1 p {
+    font-size: 16px;
+  }
+  .nav-items {
+    flex-direction: column;
+    gap: 24px;
+    position: fixed;
+    top: 100px;
+    left: -100%;
+    width: 100%;
+    height: calc(100vh - 104px);
+    background: #fff;
+    padding: 60px 0;
+    transition: all 0.3s ease-in-out;
+    z-index: 10;
+  }
+  .par5 {
+    flex-direction: column;
+    gap: 24px;
+    position: fixed;
+    top: 80px;
+    left: -100%;
+    width: 100%;
+    height: calc(100vh - 104px);
+    background: #fff;
+    padding: 60px 0;
+    transition: all 0.3s ease-in-out;
+    z-index: 10;
+  }
+  .open .nav-items {
+    left: 0;
+  }
+  .open {
+    box-shadow: none;
+  }
+  .all {
+    flex-wrap: wrap;
+  }
+  .cards {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .par {
+    padding-left: 0;
+  }
+  #app {
+    padding-left: 0;
+  }
+  .Categories {
+    padding-left: 0;
+  }
+  .Categories .par9 {
+    justify-content: center;
+  }
+  .Categories .par11 {
+    text-align: center;
+  }
+  .par {
+    justify-content: center;
+  }
+  #app {
+    display: flex;
+    justify-content: center;
+  }
+  .wrapper {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .experience {
+    padding-left: 0;
+    padding-inline-end: 0;
+  }
+  .experience2 {
+    gap: 16px !important;
+    padding-left: 40px !important;
+  }
+  .experience2 .experience-button {
+    margin-top: 50px;
+  }
+  .experience .experience2 .experience5 {
+    font-size: 20px;
+    line-height: 40px;
+  }
+  .experience .experience2 .experience6 {
+    flex-wrap: wrap;
+  }
+  .ariva__images {
+    flex-wrap: wrap;
+  }
+  .ariva__images img {
+    width: 362px !important;
+  }
+  .ariva__images .speak__parfume {
+    margin-top: 20px;
+    margin-left: 96px;
+    flex-wrap: wrap;
+  }
+  .ariva__images .ps__girl__images {
+    flex-wrap: wrap;
+    margin-left: 260px;
+  }
+  .arrival {
+    padding-left: 12px;
+  }
+  .services {
+    flex-wrap: wrap;
+  }
+  footer {
+    padding-top: 40px;
+    background-color: #000000;
+    padding: 135px 120px;
+    color: #fff;
+    margin-top: 30px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+  }
+  footer .footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 70px;
+  }
+  footer .footer .inform {
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+  }
+  footer .footer .inform .exclusive__title {
+    font-size: 26px;
+    font-weight: 500;
+  }
+  footer .footer .inform .infotm__title2 {
+    font-size: 20px;
+    font-weight: 400;
+  }
+  footer .footer .inform .inform__text {
+    font-size: 18px;
+    font-weight: 400;
+  }
+  footer .footer .inform input {
+    width: 100%;
+    max-width: 217px;
+    padding: 12px 16px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    opacity: 40%;
+    background-color: #000000;
+    border: 1.5px solid #fff;
+    outline: none;
+    border-radius: 4px;
+    color: #fff;
+  }
+  footer .footer .inform .infotm__title {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 28px;
+  }
+  footer .footer .inform .infotm__title3 {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+  }
+  footer .footer .inform .inform__text2 {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+  }
+  footer .footer .inform .inform__tel {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+  }
+  footer .footer .app {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 24px;
+  }
+  footer .footer .app .app__title {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 28px;
+  }
 }/*# sourceMappingURL=style.css.map */
